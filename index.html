@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap" rel="stylesheet">
+  <title>2023 Calendar</title>
+</head>
+
+<!-- Styling -->
+<style>
+body{
+    background: #16222A; 
+    background: -webkit-linear-gradient(to bottom, #3A6073, #16222A); 
+    background: linear-gradient(to bottom, #3A6073, #16222A); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Raleway', sans-serif;
+    max-width: 100%;
+    font-size: 10px;
+    cursor: pointer;
+}
+h1{
+    color: white;
+    font-size: 90px;
+    margin-top: 4px;
+    margin-bottom: 9px;
+}
+.image{
+    width: 100%;
+    height: auto;
+}
+tr{
+    text-align: center;
+}
+.box{
+    color: white;
+    border-collapse: collapse;
+	  margin: 0 auto;
+}
+.box:hover{
+    color: yellow;
+    transition: .7s;
+}
+.head{
+    font-size: 40px;
+    font: bold;
+}
+span{
+    border: 4px solid white;
+    padding-right: 8px;
+    padding-left: 8px;
+    border-radius: 10px;
+}
+span:hover{
+    border: 4px solid yellow;
+    color: yellow;
+    transition: .7s;
+}
+.special{
+    color: 	#E52B50;
+}
+.holidays{
+    font-size: 70px;
+    padding-top: 18px;
+    color: yellow;
+}
+.hol{
+    font-size: 25px;
+    color: white;
+}
+.table{
+    border: 5px solid rgb(79, 79, 79);
+    color: white;
+    font-size: 18px;
+}
+.push{
+    transform: translateX(240px);
+}
+.end-text{
+    font-size: 20px;
+    color: white;
+}
+</style>
+
+<!--Main Program-->
+<div>
+<body>
+  <h1 align="center">2023 <span>Calendar</span></h1>
+  <center>
+    <table border="5">
+
+<!-- January -->
+<tr>
+  <td>
+    <table align="center" cellpadding="5" cellspacing="7" class="box">
+      <tr>
+        <th class="head" colspan="9"><b>JANUARY</b></th>
+      </tr>
+      <tr>
+        <th class="special">Sunday</th>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+        <th>Saturday</th>
+        </tr>
+        <tr>
+          <td class="special">1</td>
+          <td>2</td>
+          <td>3</td>
+          <td>4</td>
+          <td>5</td>
+          <td>6</td>
+          <td>7</td>
+        </tr>
+        <tr>
+          <td class="special">8</td>
+          <td>9</td>
+          <td>10</td>
+          <td>11</td>
+          <td>12</td>
+          <td>13</td>
+          <td>14</td>
+        </tr>
+        <tr>
+          <td class="special">15</td>
+          <td>16</td>
+          <td>17</td>
+          <td>18</td>
+          <td>19</td>
+          <td>20</td>
+          <td>21</td>
+        </tr>
+        <tr>
+          <td class="special">22</td>
+          <td>23</td>
+          <td>24</td>
+          <td>25</td>
+          <td>26</td>
+          <td>27</td>
+          <td>28</td>
+        </tr>
+        <tr>
+          <td class="special">29</td>
+          <td>30</td>
+          <td>31</td>
+        </tr>
+      </table>
+    </td>
+
+<!-- February -->
+<td>
+<table align="center" cellpadding="5" cellspacing="7" class="box">
+  <tr>
+    <th class="head" colspan="9"><b>FEBRUARY</b></th>
+  </tr>
+  <tr>
+    <th class="special">Sunday</th>
+    <th>Monday</th>
+    <th>Tuesday</th>
+    <th>Wednesday</th>
+    <th>Thursday</th>
+    <th>Friday</th>
+    <th>Saturday</th>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+    <td>4</td>
+  </tr>
+  <tr>
+    <td class="special">5</td>
+    <td>6</td>
+    <td>7</td>
+    <td>8</td>
+    <td>9</td>
+    <td>10</td>
+    <td>11</td>
+  </tr>
+  <tr>
+    <td class="special">12</td>
+    <td>13</td>
+    <td>14</td>
+    <td>15</td>
+    <td>16</td>
+    <td>17</td>
+    <td>18</td>
+  </tr>
+  <tr>
+    <td class="special">19</td>
+    <td>20</td>
+    <td>21</td>
+    <td>22</td>
+    <td>23</td>
+    <td>24</td>
+    <td>25</td>
+  </tr>
+  <tr>
+    <td class="special">26</td>
+    <td>27</td>
+    <td>28</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+</td>
+
+<!-- March -->
+<td>
+  <table align="center" cellpadding="5" cellspacing="7" class="box">
+    <tr>
+      <th class="head" colspan="9"><b>MARCH</b></th>
+    </tr>
+    <tr>
+    <th class="special">Sunday</th>
+    <th>Monday</th>
+    <th>Tuesday</th>
+    <th>Wednesday</th>
+    <th>Thursday</th>
+    <th>Friday</th>
+    <th>Saturday</th>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td class="special">5</td>
+      <td>6</td>
+      <td>7</td>
+      <td>8</td>
+      <td>9</td>
+      <td>10</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <td class="special">12</td>
+      <td>13</td>
+      <td>14</td>
+      <td>15</td>
+      <td>16</td>
+      <td>17</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td class="special">19</td>
+      <td>20</td>
+      <td>21</td>
+      <td>22</td>
+      <td>23</td>
+      <td>24</td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <td class="special">26</td>
+      <td>27</td>
+      <td>28</td>
+      <td>29</td>
+      <td>30</td>
+      <td>31</td>
+      <td></td>
+    </tr>
+  </table>
+</td>
+
+<!-- April -->
+<td>
+  <table align="center" cellpadding="5" cellspacing="7" class="box">
+    <tr>
+      <th class="head" colspan="9"><b>APRIL</b></th>
+    </tr>
+    <tr>
+    <th class="special">Sunday</th>
+    <th>Monday</th>
+    <th>Tuesday</th>
+    <th>Wednesday</th>
+    <th>Thursday</th>
+    <th>Friday</th>
+    <th>Saturday</th>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td class="special">2</td>
+      <td>3</td>
+      <td>4</td>
+      <td>5</td>
+      <td class="special">6</td>
+      <td class="special">7</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td class="special">9</td>
+      <td>10</td>
+      <td>11</td>
+      <td>12</td>
+      <td>13</td>
+      <td>14</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <td class="special">16</td>
+      <td>17</td>
+      <td>18</td>
+      <td>19</td>
+      <td>20</td>
+      <td>21</td>
+      <td>22</td>
+    </tr>
+    <tr>
+      <td class="special"><sup>23</sup>/<sub>30</sub></td>
+      <td>24</td>
+      <td>25</td>
+      <td>26</td>
+      <td>27</td>
+      <td>28</td>
+      <td>29</td>
+    </tr>
+  </table>
+</td>
+</tr>
+<tr>
+<!-- May -->
+<td>
+  <table align="center" cellpadding="5" cellspacing="7" class="box">
+    <tr>
+      <th class="head" colspan="9"><b>MAY</b></th>
+    </tr>
+    <tr>
+    <th class="special">Sunday</th>
+    <th>Monday</th>
+    <th>Tuesday</th>
+    <th>Wednesday</th>
+    <th>Thursday</th>
+    <th>Friday</th>
+    <th>Saturday</th>
+    </tr>
+    <tr>
+      <td></td>
+      <td class="special">1</td>
+      <td>2</td>
+      <td>3</td>
+      <td>4</td>
+      <td>5</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td class="special">7</td>
+      <td>8</td>
+      <td>9</td>
+      <td>10</td>
+      <td>11</td>
+      <td>12</td>
+      <td>13</td>
+    </tr>
+    <tr>
+      <td class="special">14</td>
+      <td>15</td>
+      <td>16</td>
+      <td>17</td>
+      <td>18</td>
+      <td>19</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td class="special">21</td>
+      <td>22</td>
+      <td>23</td>
+      <td>24</td>
+      <td>25</td>
+      <td>26</td>
+      <td>27</td>
+    </tr>
+    <tr>
+      <td class="special">28</td>
+      <td>29</td>
+      <td>30</td>
+      <td>31</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </table>
+</td>
+
+<!-- For picture in the middle -->
+<th colspan="2" rowspan="2"><img src="img/catt.jpg" class="image"></th>
+
+
+<!-- June -->
+<td>
+  <table align="center" cellpadding="5" cellspacing="7" class="box">
+    <tr>
+      <th class="head" colspan="9"><b>JUNE</b></th>
+    </tr>
+    <tr>
+    <th class="special">Sunday</th>
+    <th>Monday</th>
+    <th>Tuesday</th>
+    <th>Wednesday</th>
+    <th>Thursday</th>
+    <th>Friday</th>
+    <th>Saturday</th>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td class="special">4</td>
+      <td>5</td>
+      <td>6</td>
+      <td>7</td>
+      <td>8</td>
+      <td>9</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td class="special">11</td>
+      <td class="special">12</td>
+      <td>13</td>
+      <td>14</td>
+      <td>15</td>
+      <td>16</td>
+      <td>17</td>
+    </tr>
+    <tr>
+      <td class="special">18</td>
+      <td>19</td>
+      <td>20</td>
+      <td>21</td>
+      <td>22</td>
+      <td>23</td>
+      <td>24</td>
+    </tr>
+    <tr>
+      <td class="special">25</td>
+      <td>26</td>
+      <td>27</td>
+      <td>28</td>
+      <td>29</td>
+      <td>30</td>
+      <td></td>
+    </tr>
+  </table>
+</td>
+
+<tr>
+<!-- July -->
+<td>
+  <table align="center" cellpadding="5" cellspacing="7" class="box">
+    <tr>
+      <th class="head" colspan="9"><b>JULY</b></th>
+    </tr>
+    <tr>
+    <th class="special">Sunday</th>
+    <th>Monday</th>
+    <th>Tuesday</th>
+    <th>Wednesday</th>
+    <th>Thursday</th>
+    <th>Friday</th>
+    <th>Saturday</th>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td class="special">2</td>
+      <td>3</td>
+      <td>4</td>
+      <td>5</td>
+      <td>6</td>
+      <td>7</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td class="special">9</td>
+      <td>10</td>
+      <td>11</td>
+      <td>12</td>
+      <td>13</td>
+      <td>14</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <td class="special">16</td>
+      <td>17</td>
+      <td>18</td>
+      <td>19</td>
+      <td>20</td>
+      <td>21</td>
+      <td>22</td>
+    </tr>
+    <tr>
+      <td class="special">23</td>
+      <td>24</td>
+      <td>25</td>
+      <td>26</td>
+      <td>27</td>
+      <td>28</td>
+      <td>29</td>
+    </tr>
+    <tr>
+      <td class="special">30</td>
+      <td>31</td>
+    </tr>
+  </table>
+</td>
+
+<!-- August -->
+<td>
+  <table align="center" cellpadding="5" cellspacing="7" class="box">
+    <tr>
+      <th class="head" colspan="9"><b>AUGUST</b></th>
+    </tr>
+    <tr>
+    <th class="special">Sunday</th>
+    <th>Monday</th>
+    <th>Tuesday</th>
+    <th>Wednesday</th>
+    <th>Thursday</th>
+    <th>Friday</th>
+    <th>Saturday</th>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+      <td>4</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td class="special">6</td>
+      <td>7</td>
+      <td>8</td>
+      <td>9</td>
+      <td>10</td>
+      <td>11</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <td class="special">13</td>
+      <td>14</td>
+      <td>15</td>
+      <td>16</td>
+      <td>17</td>
+      <td>18</td>
+      <td>19</td>
+    </tr>
+    <tr>
+      <td class="special">20</td>
+      <td>21</td>
+      <td>22</td>
+      <td>23</td>
+      <td>24</td>
+      <td>25</td>
+      <td>26</td>
+    </tr>
+    <tr>
+      <td class="special">27</td>
+      <td class="special">28</td>
+      <td>29</td>
+      <td>30</td>
+      <td>31</td>
+      <td></td>
+      <td></td>
+    </tr>
+  </table>
+</td>
+</tr>
+
+<!-- September -->
+<td>
+  <table align="center" cellpadding="5" cellspacing="7" class="box">
+    <tr>
+      <th class="head" colspan="9"><b>SEPTEMBER</b></th>
+    </tr>
+    <tr>
+    <th class="special">Sunday</th>
+    <th>Monday</th>
+    <th>Tuesday</th>
+    <th>Wednesday</th>
+    <th>Thursday</th>
+    <th>Friday</th>
+    <th>Saturday</th>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>1</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td class="special">3</td>
+      <td>4</td>
+      <td>5</td>
+      <td>6</td>
+      <td>7</td>
+      <td>8</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <td class="special">10</td>
+      <td>11</td>
+      <td>12</td>
+      <td>13</td>
+      <td>14</td>
+      <td>15</td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <td class="special">17</td>
+      <td>18</td>
+      <td>19</td>
+      <td>20</td>
+      <td>21</td>
+      <td>22</td>
+      <td>23</td>
+    </tr>
+    <tr>
+      <td class="special">24</td>
+      <td>25</td>
+      <td>26</td>
+      <td>27</td>
+      <td>28</td>
+      <td>29</td>
+      <td>30</td>
+    </tr>
+  </table>
+</td>
+
+<!-- October -->
+<td>
+  <table align="center" cellpadding="5" cellspacing="7" class="box">
+    <tr>
+      <th class="head" colspan="9"><b>OCTOBER</b></th>
+    </tr>
+    <tr>
+    <th class="special">Sunday</th>
+    <th>Monday</th>
+    <th>Tuesday</th>
+    <th>Wednesday</th>
+    <th>Thursday</th>
+    <th>Friday</th>
+    <th>Saturday</th>
+    </tr>
+    <tr>
+      <td class="special">1</td>
+      <td>2</td>
+      <td>3</td>
+      <td>4</td>
+      <td>5</td>
+      <td>6</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td class="special">8</td>
+      <td>9</td>
+      <td>10</td>
+      <td>11</td>
+      <td>12</td>
+      <td>13</td>
+      <td>14</td>
+    </tr>
+    <tr>
+      <td class="special">15</td>
+      <td>16</td>
+      <td>17</td>
+      <td>18</td>
+      <td>19</td>
+      <td>20</td>
+      <td>21</td>
+    </tr>
+    <tr>
+      <td class="special">21</td>
+      <td>22</td>
+      <td>23</td>
+      <td>24</td>
+      <td>25</td>
+      <td>26</td>
+      <td>27</td>
+    </tr>
+    <tr>
+      <td class="special">28</td>
+      <td>29</td>
+      <td>30</td>
+      <td>31</td>
+    </tr>
+  </table>
+</td>
+
+<!-- November -->
+<td>
+  <table align="center" cellpadding="5" cellspacing="7" class="box">
+    <tr>
+      <th class="head" colspan="9"><b>NOVEMBER</b></th>
+    </tr>
+    <tr>
+    <th class="special">Sunday</th>
+    <th>Monday</th>
+    <th>Tuesday</th>
+    <th>Wednesday</th>
+    <th>Thursday</th>
+    <th>Friday</th>
+    <th>Saturday</th>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td class="special">5</td>
+      <td>6</td>
+      <td>7</td>
+      <td>8</td>
+      <td>9</td>
+      <td>10</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <td class="special">12</td>
+      <td>13</td>
+      <td>14</td>
+      <td>15</td>
+      <td>16</td>
+      <td>17</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td class="special">19</td>
+      <td>20</td>
+      <td>21</td>
+      <td>22</td>
+      <td>23</td>
+      <td>24</td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <td class="special">26</td>
+      <td class="special">27</td>
+      <td>28</td>
+      <td>29</td>
+      <td>30</td>
+      <td></td>
+      <td></td>
+    </tr>
+  </table>
+</td>
+
+<!-- December -->
+<td>
+  <table align="center" cellpadding="5" cellspacing="7" class="box">
+    <tr>
+      <th class="head" colspan="9"><b>DECEMBER</b></th>
+    </tr>
+    <tr>
+    <th class="special">Sunday</th>
+    <th>Monday</th>
+    <th>Tuesday</th>
+    <th>Wednesday</th>
+    <th>Thursday</th>
+    <th>Friday</th>
+    <th>Saturday</th>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>1</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td class="special">3</td>
+      <td>4</td>
+      <td>5</td>
+      <td>6</td>
+      <td>7</td>
+      <td>8</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <td class="special">10</td>
+      <td>11</td>
+      <td>12</td>
+      <td>13</td>
+      <td>14</td>
+      <td>15</td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <td class="special">17</td>
+      <td>18</td>
+      <td>19</td>
+      <td>20</td>
+      <td>21</td>
+      <td>22</td>
+      <td>23</td>
+    </tr>
+    <tr>
+      <td class="special"><sup>24</sup>/<sub>31</sub></td>
+      <td class="special">25</td>
+      <td>26</td>
+      <td>27</td>
+      <td>28</td>
+      <td>29</td>
+      <td class="special">30</td>
+    </tr>
+  </table>
+</td>
+</tr>
+  </table>
+  </center>
+</div>
+
+<!-- Division of Calendar and Holidays-->
+<div>
+  <td>
+    <table align="center" cellpadding="15" cellspacing="7" class="table">
+      <tr>
+        <th class="holidays" colspan="9"><b>-Nationwide Holidays-</b></th>
+      </tr>
+      <tr>
+      <td>January 1, 2023 - New Year's Day</td>
+      <td>April 6, 2023 - Maundy Thursday</td>
+      <td>April 7, 2023 - Good Friday</td>
+      <td>April 9, 2023 - Araw ng Kagitingan</td>
+      <td>May 1, 2023 - Labor Day</td>
+    </tr>
+    <tr>
+      <td>June 12, 2023 - Independence Day</td>
+      <td>August 28, 2023 - National Heroes Day</td>
+      <td>November 27, 2023 - Bonifacio Day</td>
+      <td>December 25, 2023 - Christmas Day</td>
+      <td>December 30, 2023 - Rizal</td>
+    </tr>
+  </table>
+  </td>
+</div>
+
+<!-- break -->
+<br>
+<!-- Footer -->
+<center>
+    <div class="end-text">
+			<p>Copyright ©2023 All rights reserved | Made by Dexios</p>
+		</div>
+</center>
+</body>
+</html>
